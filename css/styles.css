@@ -1,1 +1,23 @@
+.title-gfont {
+    font-family: "Audiowide", sans-serif;
+    font-size: xx-large;
+}
 
+.jumbotron-edit {
+    background-image: url("/media/music-festival.jpg"); 
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+section {
+    /* min-height: 500px; */
+    border-bottom-style:solid;
+    border-bottom-color:lightgray;
+    border-bottom-width: 1px;
+}
+
+.venue_pic {
+    background-image: url("https://bind.imgix.net/uploads/4ece2b8a5523231b288e60c6cf663f39cbc2f49b.jpg"); 
+    background-size: cover;
+    background-position: center;
+}
