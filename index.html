@@ -5,13 +5,131 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <!-- <title>New Page</title> -->
   </head>
   <body>
-    <!-- <h1>Hello, world!</h1> -->
+    <header>
+      <nav class="container fs-5">
+        <div class="row pt-4">
+          <div class="col-md-6 col-sm-12 text-sm-center text-md-start">
+            <ul class="list-unstyled">
+              <li class="list-inline-item title-gfont">
+                Rotofest
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-sm-12 text-sm-center text-md-end">
+            <ul class="list-unstyled d-md-flex justify-content-md-end">
+              <li class="list-inline-item">
+                <a href="#speakers" class="text-reset fw-bolder text-decoration-none">
+                  Speakers
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#tickets" class="text-reset fw-bolder  text-decoration-none">
+                  Tickets
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#venue" class="text-reset fw-bolder text-decoration-none">
+                  Venue
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Jumbotron Section -->
+    <section class="jumbotron-edit">
+      <div class="container-fluid text-center w-50 text-white py-5">
+        <h1 class="display-4 fw-bolder ">Rotofest:</br>The inmersive electronic festival</h1>
+        <p class="lead fw-bolder">A unique view from its creators</p>
+        <a class="btn btn-dark btn-lg text-uppercase fw-bolder" href="#" role="button">get the ticket</a>
+      </div>
+    </section>
+    <!-- Speakers Section -->
+    <section id="speakers">
+      <div class="container py-5 text-dark">
+        <h1 class="display-6 fw-bolder text-center py-5">The Speakers</h1>
+        <p class="lead fw-bolder text-center pb-5">From artist innovators, digital marketers to AI engineers: 
+          </br>all in the pursuit to 
+          create the nightlife scene of the future
+        </p>
+        <div class="row text-left">
+          <div class="col-sm-6 col-lg-3 px-5 pb-5">
+            <img src="/media/speaker-4.jpg" class="img-fluid rounded pb-3" alt="Speaker 1">
+            <h4 class="fw-bolder py-3">Ruby Jennings</h4>
+            <p class="text-muted lead">Digital Artist. 3D-animation, sound designer and cat lover.</p>
+            <a href="#" class="text-decoration-none text-muted lead">@rjennings</a>
+          </div>
+          <div class="col-sm-6 col-lg-3 px-5 pb-5">
+            <img src="/media/speaker-2.jpg" class="img-fluid rounded pb-3" alt="Speaker 1">
+            <h4 class="fw-bolder py-3">Leon Hanson</h4>
+            <p class="text-muted lead">Composer-DJ. AI-based sequences, VR sound engineer and writer.</p>
+            <a href="#" class="text-decoration-none text-muted lead">@lhanson</a>
+          </div>
+          <div class="col-sm-6 col-lg-3 px-5 pb-5">
+            <img src="/media/speaker-3.jpg" class="img-fluid rounded pb-3" alt="Speaker 1">
+            <h4 class="fw-bolder py-3">Meghan Stone</h4>
+            <p class="text-muted lead">Digital Marketing. Digital markets, metaverse trading, blockchain and crossfiter.</p>
+            <a href="#" class="text-decoration-none text-muted lead">@mstone</a>
+          </div>
+          <div class="col-sm-6 col-lg-3 px-5 pb-5">
+            <img src="/media/speaker-1.jpg" class="img-fluid rounded pb-3" alt="Speaker 1">
+            <h4 class="fw-bolder py-3">Willie Perkins</h4>
+            <p class="text-muted lead">AI Researcher. Human-Machine interaction, applied sciences and father.</p>
+            <a href="#" class="text-decoration-none text-muted lead">@wperkins</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tickets Section -->
+    <section id="tickets">
+      <div class="container-fluid text-center w-75 text-dark py-5">
+        <h1 class="display-6 fw-bolder py-5">Get Your Ticket Today!</h1>
+        <p class="text-muted pb-5">Each ticket includes: <strong>20</strong> speakers, <strong>1000</strong> participants, <strong>15</strong> sessions, <strong>5</strong> keynotes.</p>
+        <a class="btn btn-dark btn-lg text-uppercase fw-bolder" href="#" role="button">buy ticket $149</a>
+      </div>
+    </section>
+    <!-- Venue Section -->
+    <section id="venue">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-12 col-md-6 text-start px-5 py-5">
+            <h1 class="display-6 fw-bolder pb-5">The Venue</h1>
+            <p class="pb-5">Our event will be held at the <strong>Westside Community Park at 7400 High Ridge Dr, El Paso, TX 79912.</strong></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3388.440004915213!2d-106.56367568539443!3d31.867450481256103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ddf8ea65bdfec3%3A0xb7888fa28f33dfad!2sDon%20Haskins%20Recreation%20Center!5e0!3m2!1sen!2sus!4v1665281783746!5m2!1sen!2sus" width="100%" height="auto" frameborder="0"></iframe>
+          </div>
+          <div class="col-12 col-md-6 px-5 py-5 venue_pic">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <section id="footer"> 
+      <div class="container">
+        <div class="row pt-3">
+          <div class="col-md-6 text-center text-md-start">
+            <a href="https://www.facebook.com/rotofest.festival" class="text-reset"><i class="bi bi-twitter p-2"></i></a>
+            <a href="https://www.facebook.com/rotofest.festival" class="text-reset"><i class="bi bi-instagram p-2"></i></a>
+            <a href="https://www.facebook.com/rotofest.festival" class="text-reset"><i class="bi bi-facebook p-2"></i></a>
+          </div>
+          <div class="col-md-6 text-center text-md-end text-muted">
+            <p>&copy 2019 Moqups</p> 
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
